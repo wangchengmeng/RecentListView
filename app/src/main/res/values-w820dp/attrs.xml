@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundCornerImageView">
+        <attr name="roundWidth" format="dimension"/>
+        <attr name="roundHeight" format="dimension"/>
+        <attr name="roundLeftTop" format="boolean"/>
+        <attr name="roundLeftBottom" format="boolean"/>
+        <attr name="roundRightTop" format="boolean"/>
+        <attr name="roundRightBottom" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircularProgress">
+        <attr name="circular_progress_color" format="color"/>
+        <attr name="circular_progress_size" format="enum">
+            <enum name="Small" value="0"/>
+            <enum name="Normal" value="1"/>
+            <enum name="Large" value="2"/>
+        </attr>
+        <attr name="circular_progress_border_width" format="dimension"/>
+        <attr name="circular_progress_indeterminate" format="boolean"/>
+        <attr name="circular_progress_max" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="SlipButton">
+        <attr name="slip_button_on_bg" format="reference"/>
+        <attr name="slip_button_off_bg" format="reference"/>
+        <attr name="slip_button_thumb" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="slideSwitch">
+        <attr name="themeColor" format="color"/>
+        <attr name="isOpen" format="boolean"/>
+        <attr name="shape">
+            <enum name="rect" value="1"/>
+            <enum name="circle" value="2"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension"/>
+        <attr name="border_color" format="color"/>
+        <attr name="border_overlay" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="RatingBarView">
+        <attr name="starImageSize" format="integer"/>
+        <attr name="starPadding" format="integer"/>
+        <attr name="totalCount" format="integer"/>
+        <attr name="starEmpty" format="reference"/>
+        <attr name="starFill" format="reference"/>
+        <attr name="rating" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircleProgress">
+        <attr name="circle_progress" format="integer"/>
+        <attr name="circle_max" format="integer"/>
+
+        <attr name="circle_unfinished_color" format="color"/>
+        <attr name="circle_finished_color" format="color"/>
+
+        <attr name="circle_text_size" format="dimension"/>
+        <attr name="circle_text_color" format="color"/>
+
+        <attr name="circle_prefix_text" format="string"/>
+        <attr name="circle_suffix_text" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="DonutProgress">
+        <attr name="donut_progress" format="integer"/>
+        <attr name="donut_max" format="integer"/>
+
+        <attr name="donut_unfinished_color" format="color"/>
+        <attr name="donut_finished_color" format="color"/>
+
+        <attr name="donut_finished_stroke_width" format="dimension"/>
+        <attr name="donut_unfinished_stroke_width" format="dimension"/>
+
+        <attr name="donut_text_size" format="dimension"/>
+        <attr name="donut_text_color" format="color"/>
+
+        <attr name="donut_prefix_text" format="string"/>
+        <attr name="donut_suffix_text" format="string"/>
+        <attr name="donut_text" format="string"/>
+
+        <attr name="donut_background_color" format="color"/>
+
+        <attr name="donut_inner_bottom_text" format="string"/>
+        <attr name="donut_inner_bottom_text_size" format="dimension"/>
+        <attr name="donut_inner_bottom_text_color" format="color"/>
+
+        <attr name="donut_circle_starting_degree" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="ArcProgress">
+        <attr name="arc_progress" format="integer"/>
+        <attr name="arc_angle" format="float"/>
+        <attr name="arc_stroke_width" format="dimension"/>
+        <attr name="arc_max" format="integer"/>
+
+        <attr name="arc_unfinished_color" format="color"/>
+        <attr name="arc_finished_color" format="color"/>
+
+        <attr name="arc_text_size" format="dimension"/>
+        <attr name="arc_text_color" format="color"/>
+
+        <attr name="arc_suffix_text" format="string"/>
+        <attr name="arc_suffix_text_size" format="dimension"/>
+        <attr name="arc_suffix_text_padding" format="dimension"/>
+
+        <attr name="arc_bottom_text" format="string"/>
+        <attr name="arc_bottom_text_size" format="dimension"/>
+    </declare-styleable>
+</resources>
