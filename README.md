@@ -1,2 +1,8 @@
 # RecentListView
-![icon](aaa.gif)
+![icon](recent.gif)
+
+
+####添加图片
+
+	
+        mRlvRecentList.fillData(mDatas);
